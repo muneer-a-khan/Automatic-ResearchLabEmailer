@@ -1,0 +1,5 @@
+.env
+*.csv
+*.log
+config.json
+secrets.json
