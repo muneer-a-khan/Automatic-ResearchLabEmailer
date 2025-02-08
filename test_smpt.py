@@ -18,6 +18,6 @@ try:
     server.sendmail(sender_email, receiver_email, message)
     server.quit()
     
-    print("✅ Email sent successfully! Check your inbox.")
+    print("Email sent successfully! Check your inbox.")
 except Exception as e:
-    print(f"❌ SMTP Error: {e}")
+    print(f"SMTP Error: {e}")
